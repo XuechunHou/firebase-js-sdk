@@ -34,6 +34,7 @@ export interface User extends externs.User {
   tenantId: string | null;
   providerData: externs.UserInfo[];
   metadata: externs.UserMetadata;
+  isAnonymous: boolean;
 
   getIdToken(forceRefresh?: boolean): Promise<string>;
   getIdTokenResult(forceRefresh?: boolean): Promise<externs.IdTokenResult>;

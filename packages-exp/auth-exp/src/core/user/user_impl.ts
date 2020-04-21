@@ -59,6 +59,7 @@ export class UserImpl implements User {
   tenantId = null;
   metadata = {};
   providerData = [];
+  isAnonymous = false;
 
   // Optional fields from UserInfo
   displayName: string | null;

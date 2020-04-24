@@ -214,3 +214,10 @@ export interface UserCredential {
   credential: AuthCredential | null;
   operationType: OperationType;
 }
+
+/**
+ * A provider for generating credentials
+ */
+export interface AuthProvider {
+  readonly providerId: ProviderId;
+}

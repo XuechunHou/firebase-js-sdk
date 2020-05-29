@@ -28,6 +28,7 @@ export { indexedDBLocalPersistence } from './core/persistence/indexed_db';
 
 // core/strategies
 export { signInWithCredential } from './core/strategies/credential';
+export { signInWithCustomToken } from './core/strategies/custom_token';
 export {
   sendPasswordResetEmail,
   confirmPasswordReset,
